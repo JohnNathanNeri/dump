@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  padding-left: 25px;
+}
+
+p {
+  max-width: 50%;
+}
+
+nav {
+  position: fixed;
+  background-color: antiquewhite;
+  height: 1200px;
+  width: 80px;
+  margin-left: -60px;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+nav:hover {
+  margin-left: 0;
+}

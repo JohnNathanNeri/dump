@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: #dedcdc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wide-box {
+  border-bottom: black 3px;
+  background-image: url(https://images.unsplash.com/photo-1510816206943-c707c5ee2f42?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust the background-size to cover the entire area */
+  display: flex; /* Add display: flex for centering content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.wide-box h1 {
+  border-bottom: 2px solid black;
+  color: rgb(104, 232, 78);
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 180px;
+  border-bottom: 2px solid rgb(104, 232, 78);
+}
+
+.box1 {
+  background-color: #dedcdc;
+  width: 400px;
+  height: 140px;
+  padding-left: 10px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-left: 200px;
+  margin-top: 150px;
+  border-left: 3px solid;
+}
+
+.WhatAreFrogs {
+  margin-top: 0%;
+  margin-bottom: 10px;
+}
+
+.p1 {
+  margin-top: 0%;
+}
+
+.box2 {
+  border: 1px solid black;
+  background-color: #d6ed06;
+  width: 400px;
+  height: 400px;
+  margin-right: 200px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.box-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+
+.frog1 {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container {
+  margin-top: 50px;
+  display: grid;
+  border-top: solid 2px black;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px 80px; /* Increased horizontal gap */
+  max-width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.grid-item {
+  border: 1px solid black;
+  margin-top: 50px;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+  padding-top: 0%;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  overflow: hidden; /* Added to contain content within the grid-item */
+}
+
+.header3 {
+  border-top: 1px solid black;
+  font-size: 18px;
+
+  margin-bottom: 100px;
+}
+
+.LifeCyle,
+.Habitat,
+.Diet,
+.Adaptation,
+.EcologicalImportance,
+.Species {
+  height: 200px;
+  width: 100%;
+}
+.LifeCyle {
+  padding-top: 5px;
+}
+
+.box6 {
+  height: 100%;
+  width: 100%;
+  transition: transform 0.3s ease; /* Smooth transition for the transform effect */
+}
+
+.box6:hover {
+  transform: scale(1.1); /* Zoom in by 10% on hover */
+}
+
+.ProfileContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 700px;
+  margin-top: 50px;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+  text-align: center; /* Optional: centers the divs horizontally */
+  background-color: #dedcdc;
+}
+
+.ProfileBox1,
+.ProfileBox2 {
+  margin-top: 40px;
+}
+
+.ProfileBox1 {
+  background-image: url(images/creator.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 640px;
+  width: 400px;
+  margin-left: 150px;
+}
+
+.ProfileBox2 {
+  height: 600px;
+  width: 500px;
+  margin-left: 20px; /* Adjust as needed */
+  margin-right: 150px;
+}

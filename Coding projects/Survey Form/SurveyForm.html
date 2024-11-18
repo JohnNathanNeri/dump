@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form</p>
+    <form id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label" >Name: <input type="text" id="name" placeholder="full name" required/></label>
+       
+
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="exmaple@gmail.com" required />
+
+        <label for="number" id="number-label">Enter your age:</label>
+        <input type="number" id="number" min="18" max="100" placeholder="ex:21"  required />
+    </fieldset>
+    <fieldset>
+        <label for="dropdown" required >Select an option:
+        <select id="dropdown" required>
+            <option>(choose)</option>
+            <option value="option 1">option 1</option>
+            <option value="option 2">option 2</option>
+        </select>
+    </label>
+    <label><input name="Options" value="RadOption 1" type="radio" class="inline" required /> Radio Option 1</label>
+            <label><input name="Options" value="RadOption 2" type="radio" class="inline" required />  Radio Option 2</label>
+    </fieldset>
+    <fieldset>
+        <label><input type="checkbox" value="Box 1" class="inline" required/> Checkbox 1</label>
+        <label><input type="checkbox" value="Box 2" class="inline" required/> Checkbox 2</label>
+        <label><input type="checkbox" value="Box 3" class="inline" required/> Checkbox 3</label>
+        <label><input type="checkbox" value="Box 4" class="inline" required/> Checkbox 4</label>
+        <label>Additional Comments: 
+            <textarea cols="30" placeholder="Type comments here..."></textarea>
+        </label>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>

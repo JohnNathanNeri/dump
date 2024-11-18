@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap");
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-1);
+  }
+}
+
+.container {
+  animation: fadeIn 1s ease-out; /* Apply the fadeIn animation to the container */
+}
+
+.Home {
+  animation: fadeIn 1s ease-out; /* Apply the fadeIn animation to the Back to Home link with a delay */
+}
+
+h1,
+p,
+.back-to-home {
+  font-family: "Roboto Slab", serif;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+div {
+  border: px solid;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1444837881208-4d46d5c1f127?q=80&w=1945&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  border-bottom: solid 1px black;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border-top: solid px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.who {
+  text-align: center;
+  padding-left: 10px;
+  padding-left: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.picture1 {
+  margin-right: 200px;
+  width: 300px;
+  height: 400px;
+}
+
+.picture1 img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.Home {
+  margin-top: 145px;
+  margin-left: 20px;
+  height: px;
+  width: max-content;
+}
+
+.back-to-home {
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  color: rgb(255, 255, 255);
+}
